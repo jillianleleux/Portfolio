@@ -1,11 +1,59 @@
 /* Place CSS styles here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page1 { z-index: 5; }
+#page2 { z-index: 4; }
+#page3 { z-index: 3; }
+#page4 { z-index: 2; }
+#page5 { z-index: 1; }
 
 body {
-    color:rgb(29, 96, 29);
+    display: grid;
+    place-content: center;
+    background:rgb(29, 96, 29);
     background-color:rgb(194 189 118);
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+
 
 }
+.flipbook{
+    width:1000px;
+    height:600px;
+}
 
+.flipbook .hard {
+background: red;
+color:white;
+font-weight: bold;
+text-align:center;
+line-height:600px;
+font-size:24px;
+}
 
+.flipbook .page{
+    padding:20px;
+    font-family: 'Qicksand',sans-serif;
+    text-align:center;
+    background: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border:1px solid black;
 
-
+}
+.page img{
+    width:100px;
+    object-fit:cover;
+    margin:auto;
+}
+.flipbook .page small{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
