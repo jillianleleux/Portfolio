@@ -45,10 +45,19 @@ body {
 
 
 
-
-.project1{
-    height: 279px;
+.JHL{
     position:absolute;
+    height: 445px;
+    margin:29px;
+}
+.grave{
+    height: 388px;
+    position:absolute;
+}
+.fish{
+    height: 401px;
+    position:absolute;
+    margin:9px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
