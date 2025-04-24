@@ -43,12 +43,15 @@ body {
 
 }
 
-
+.intro{
+    position:absolute;
+    margin:110px;
+}
 
 .JHL{
     position:absolute;
-    height: 445px;
-    margin:29px;
+    height: 485px;
+    margin:19px;
 }
 .grave{
     height: 388px;
