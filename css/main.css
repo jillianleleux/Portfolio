@@ -37,9 +37,14 @@ h3 a:hover {
 .p{
     height:100px;
 }
-
-
-
+.mimi{
+    height: 366px;
+    margin:10px;
+}
+.venus{
+    height: 495px;
+    margin:-20px;
+}
 
 .intro{
     position:absolute;
