@@ -12,6 +12,21 @@ body {
   background: #f3c0e0;
   position: relative;
 }
+
+            
+    .hero {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        }
+        
+        .hero-content {
+        max-width: 80%; /* Takes up 90% of the .hero container */
+        margin: 0 auto; /* Center the content */
+        text-align: center;
+        }
+    
 .heading{
     text-align: center;
 }
@@ -76,7 +91,8 @@ form {
     
 }
 .title-logo{
-    align-items: center;
+    padding: 20px;
+    
 }
 
 button {
