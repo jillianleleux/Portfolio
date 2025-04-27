@@ -64,6 +64,32 @@ h3 a:hover {
     position:absolute;
     margin:9px;
 }
+form {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 121px;
+	border: 1px solid #cccccc;
+	background-color: lightblue;
+	margin-bottom: 80px;
+	margin-top: auto;
+    text-align:center;
+    
+}
+
+button {
+    background-color: #004574;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-family: "Fuzzy Bubbles", serif;
+}
+.portfolio-heading{
+    text-align: center;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-size: 1.8rem;
+}
+
 
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
@@ -78,6 +104,12 @@ h3 a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+
+
+
 
 
 .book {
