@@ -25,6 +25,9 @@ body {
         max-width: 80%; /* Takes up 90% of the .hero container */
         margin: 0 auto; /* Center the content */
         text-align: center;
+        font-family:"neonderthaw";
+        font-size: 79px;
+        color: #910000;
         }
     
 .heading{
@@ -35,7 +38,7 @@ h2{
     margin: 56px;
     font-size: 78px;
     font-family:"neonderthaw";
-    color:crimson;
+    color:#910000;
 }
 h3{
     text-align: center;
@@ -43,7 +46,7 @@ h3{
 }
 h3 a {
     text-decoration: none; 
-    color: #c72626;
+    color: #910000;
     font-family: "Freckle Face", serif;
     margin: 0 10px; 
     
@@ -146,7 +149,11 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.instruction{
+    margin-left: 136px;
+    font-family:"neonderthaw";
+    font-size:60px;
+}
 
 
 
@@ -1273,14 +1280,12 @@ footer {
 
 .cover-front:nth-child(1) {
   text-align: center;
-  background: linear-gradient(#f3c0e0, #cc7194) 50% 50% / 80% 86% no-repeat, linear-gradient(#ffffff, #ffffff) 50% 50% / 90% 93% no-repeat, linear-gradient(#ffd8f1, #cc7194) no-repeat;
+  background: linear-gradient(#fed7ef, #cc7194) 50% 50% / 80% 86% no-repeat, linear-gradient(#ebafcb, #d98aab) 50% 50% / 90% 93% no-repeat, linear-gradient(#ffd8f1, #cc7194) no-repeat;
 }
 .cover-front:nth-child(1) h1 {
-  font-family: "Lora", serif;
+  font-family: "neonderthaw";
   font-size: 45px;
-  color: #134a78;
-  margin-top: 30px;
-  text-transform: uppercase;
+  color: #9e3a61;
 }
 .cover-front:nth-child(1) h2 {
   font-family: "EB Garamond", serif;
@@ -1302,12 +1307,4 @@ footer {
   font-size: 32px;
 }
 
-.instruction {
-  left: calc(50% - 150px);
-  font-size: 26px;
-  font-family: "EB Garamond", serif;
-  color: #0009;
-  background: #fff7;
-  border-radius: 15px;
-  padding: 10px 15px;
-}
+
