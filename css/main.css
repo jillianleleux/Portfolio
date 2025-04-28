@@ -30,6 +30,11 @@ body {
 .heading{
     text-align: center;
 }
+h2{
+    text-align: left;
+    margin: 56px;
+    font-size: 78px;
+}
 h3{
     text-align: center;
 }
@@ -47,9 +52,17 @@ h3 a:hover {
 }
 .headshot{
     height: 400px;
+    margin-left: 449px;
+    margin-top: -159px;
 }
 .p{
     height:100px;
+        display: flex;
+        flex-direction: column;
+        margin:44px;
+        margin-right: 465px;
+        text-align: center;
+    
 }
 .mimi{
     height: 366px;
