@@ -34,13 +34,16 @@ h2{
     text-align: left;
     margin: 56px;
     font-size: 78px;
+    font-family:"neonderthaw";
+    color:crimson;
 }
 h3{
     text-align: center;
+    
 }
 h3 a {
     text-decoration: none; 
-    color: rgb(1, 41, 11); 
+    color: #c72626;
     font-family: "Freckle Face", serif;
     margin: 0 10px; 
     
@@ -55,13 +58,14 @@ h3 a:hover {
     margin-left: 449px;
     margin-top: -159px;
 }
-.p{
+.about-p{
     height:100px;
         display: flex;
         flex-direction: column;
         margin:44px;
         margin-right: 465px;
         text-align: center;
+        font-family:"atkinson hyperlegible mono";
     
 }
 .mimi{
@@ -114,12 +118,18 @@ button {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    font-family: "Fuzzy Bubbles", serif;
+    font-family: "neonderthaw";
 }
 .portfolio-heading{
     text-align: center;
     font-family: "Atkinson Hyperlegible Mono", serif;
     font-size: 1.8rem;
+}
+footer {
+    color: #c72626;
+	padding: 15px;
+	text-align: center;
+    margin-top: 224px;
 }
 
 
@@ -131,7 +141,7 @@ button {
 }
 
 .instruction, .book {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -176,7 +186,7 @@ button {
   padding: 5% 5% 4% 4%;
   transform-origin: 100% 50%;
   transform: translatez(-2px) scalex(-1) translatex(100%);
-  background: #9bc8d6;
+  background: #cc7194;
 }
 
 .left-side:nth-child(2) {
@@ -1263,7 +1273,7 @@ button {
 
 .cover-front:nth-child(1) {
   text-align: center;
-  background: linear-gradient(#afd2dd, #a1d5e5) 50% 50%/80% 86% no-repeat, linear-gradient(#ffffff, #ffffff) 50% 50%/90% 93% no-repeat, linear-gradient(#9bc8d6, #9bc8d6) no-repeat;
+  background: linear-gradient(#f3c0e0, #cc7194) 50% 50% / 80% 86% no-repeat, linear-gradient(#ffffff, #ffffff) 50% 50% / 90% 93% no-repeat, linear-gradient(#ffd8f1, #cc7194) no-repeat;
 }
 .cover-front:nth-child(1) h1 {
   font-family: "Lora", serif;
@@ -1286,11 +1296,7 @@ button {
   top: 3%;
 }
 
-p {
-  margin-bottom: 4%;
-  font-family: "EB Garamond", serif;
-  font-size: 16px;
-}
+
 
 .page:nth-child(3) p:first-of-type:first-letter {
   font-size: 32px;
