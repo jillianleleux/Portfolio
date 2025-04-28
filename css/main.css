@@ -57,10 +57,11 @@ h3 a:hover {
     color: rgb(255, 255, 255); /* Slightly different green */
 }
 .headshot{
-    height: 400px;
-    margin-left: 449px;
+    height: 454px;
+    margin-left: 707px;
     margin-top: -159px;
 }
+
 .about-p{
     height:100px;
         display: flex;
