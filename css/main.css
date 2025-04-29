@@ -135,7 +135,10 @@ footer {
 	text-align: center;
     margin-top: 224px;
 }
-
+.painting{
+    height: 444px;
+    margin: 25px;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
@@ -153,7 +156,7 @@ footer {
 .instruction{
     margin-left: 136px;
     font-family:"neonderthaw";
-    font-size:60px;
+    font-size:45px;
 }
 
 
