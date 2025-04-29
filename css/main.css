@@ -153,9 +153,9 @@ footer {
   transform: translate(-50%, -50%);
 }
 .instruction{
-    margin-left: 136px;
+    margin-left: 256px;
     font-family:"neonderthaw";
-    font-size:45px;
+    font-size:39px;
 }
 
 .header-main-footer-demo-container {
