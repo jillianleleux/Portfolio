@@ -104,10 +104,7 @@ form {
 	max-width: 400px;
 	margin: 0 auto;
 	padding: 121px;
-	border: 1px solid #cccccc;
-	background-color: lightblue;
-	margin-bottom: 80px;
-	margin-top: auto;
+	background-color: #cc7194;
     text-align:center;
     
 }
@@ -117,12 +114,14 @@ form {
 }
 
 button {
-    background-color: #004574;
+    background-color: #9e3a61;
     color: white;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
     font-family: "neonderthaw";
+    font-size:27px;
+    margin:23px;
 }
 .portfolio-heading{
     text-align: center;
