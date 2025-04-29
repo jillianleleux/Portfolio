@@ -58,20 +58,21 @@ h3 a:hover {
 }
 .headshot{
     height: 454px;
-    margin-left: 707px;
+    margin-left: 880px;
     margin-top: -159px;
 }
 
 .about-p{
-    height:100px;
-        display: flex;
+        height: 96px;
+        display: flex
+    ;
         flex-direction: column;
-        margin:44px;
-        margin-right: 465px;
+        margin: 47px;
+        margin-right: 376px;
         text-align: center;
-        font-family:"atkinson hyperlegible mono";
+        font-family: "atkinson hyperlegible mono";
+    }
     
-}
 .mimi{
     height: 366px;
     margin:10px;
@@ -179,7 +180,13 @@ footer {
 .header-main-footer-footer {
     grid-area: footer;
 }
-
+.thank-you{
+    text-align: center;
+    margin-top: 264px;
+    font-family: "neonderthaw";
+    font-size: 100px;
+    color: #910000;
+}
 
 
 .book {
