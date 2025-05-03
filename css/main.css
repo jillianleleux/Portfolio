@@ -145,6 +145,11 @@ footer {
     margin: -20px;
     font-family: "Atkinson Hyperlegible Mono", serif;
 }
+.pg6-p{
+    font-size: 30px;
+    margin-top: 151px;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 * {
