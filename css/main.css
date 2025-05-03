@@ -81,10 +81,7 @@ h3 a:hover {
     height: 495px;
     margin:-20px;
 }
-.mosaic{
-    height:400px;
-    margin:20px;
-}
+
 .intro{
     position:absolute;
     margin:110px;
@@ -96,8 +93,9 @@ h3 a:hover {
     margin:19px;
 }
 .grave{
-    height: 388px;
-    position:absolute;
+    height: 475px;
+    position: absolute;
+    top: 93px;
 }
 .fish{
     height: 401px;
@@ -142,7 +140,11 @@ footer {
     height: 444px;
     margin: 25px;
 }
-
+.pg4-p{
+    font-size: 35px;
+    margin: -20px;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 * {
